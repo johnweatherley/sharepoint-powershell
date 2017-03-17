@@ -1,0 +1,4 @@
+﻿Path,Group,Permission,BreakInheritance,CopyFromParent,ApplyToChildren
+Shared Documents/Folder1/,Folder1Group,Edit,TRUE,TRUE,TRUE
+Shared Documents/Folder2/,Folder1Group,Contributor,TRUE,TRUE,TRUE
+Shared Documents/Folder2/,Folder2Group,Contributor,TRUE,TRUE,TRUE

@@ -1,0 +1,36 @@
+<!-- Site Collections -->
+  <sites>
+	<!-- Site Collection
+		 Attributes:
+		 Url - Url for the site collection -->
+	<site Url="https://jweatherley.sharepoint.com/" >
+		<!-- Global Nav -->
+		<globalnav>
+			<!-- Item on the Global Nav Bar.
+				 Attributes:
+				 Title - Text for the Item.
+				 Url - Url for the Item.  Use empty string for no link.
+			-->
+			<header Title="Link 1" Url="">
+				<!-- Sub Item
+					 Attributes:
+					 Title - Text for the Item.
+					 Url - Url for the Item.  Use empty string for no link.
+				-->
+				<nav Title="Link 1a" Url="https://domain.sharepoint.com/link1a" />
+				<nav Title="Link 1b" Url="https://domain.sharepoint.com/link1b" />
+			</header>
+			<header Title="Link 2" Url="https://domain.sharepoint.com/link2">
+				<!-- Sub Item
+					 Attributes:
+					 Title - Text for the Item.
+					 Url - Url for the Item.  Use empty string for no link.
+				-->
+				<nav Title="Link 2a" Url="https://domain.sharepoint.com/link2a" />
+				<nav Title="Link 2b" Url="https://domain.sharepoint.com/link2b" />
+			</header>
+			<!-- Item on the Global Nav Bar without Sub Items. -->
+			<header Title="Home" Url="http://domain.sharepoint.com/"/>
+	  </globalnav>     
+	</site>
+  </sites>
